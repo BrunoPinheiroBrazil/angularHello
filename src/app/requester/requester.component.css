@@ -1,0 +1,10 @@
+h1 {
+    display: flexbox;
+    font-family: 'Arial';
+    font-size: 32px;
+    font-weight: 700;
+    color:#666;
+    background: green;
+    padding: 5px 10px;
+    border-radius: 8px;
+}

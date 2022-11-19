@@ -1,0 +1,9 @@
+<h1>requester works!</h1>
+<div>
+    <label for="cep">CEP: </label>
+    <input id="cep" [(ngModel)]="cep" placeholder="Insira o CEP">
+  </div>
+<button (click)="getAddress()">Clique para buscar o cep!</button>
+<fieldset>
+    {{response}}
+</fieldset>
